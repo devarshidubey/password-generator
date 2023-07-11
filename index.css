@@ -1,0 +1,93 @@
+/* Complete the CSS styling according to the provided design */
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1C1C1C
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    margin-bottom:0px;
+    margin-top: 0px;
+}
+#green-el {
+    color: #55F991
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    color: white;
+    margin-top: 14px;
+    margin-bottom: 2px;
+}
+
+.password {
+    color:#1F2937;
+    font-weight: 500;
+    background-color: #273549;
+    border:0px;
+    padding-bottom: 8px;
+    padding-top: 6px;
+    border-radius: 3px;
+    white-space: normal;
+  overflow: hidden;
+  height: auto;
+  line-height: 1;
+
+}
+.container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Set the container height to full viewport height */
+    
+}
+  
+.box {
+    width: 350px; /* Set the desired width of the box */
+    height: 350px; /* Set the desired height of the box */
+    background-color: #1F2937;
+    border-radius: 4px;
+    padding: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 7px 27px 5px #191919, -0.3em -0.3em .4em #191919;
+}
+
+.content {
+    display:flex;
+    flex-direction: column;
+
+}
+.password-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+
+}
+#generateButton {
+    width:fit-content;
+    padding:8px;
+    padding-left:15px;
+    padding-right:15px;
+    margin-top:20px;
+    border:0px;
+    border-radius: 4px;
+    background-color: #10B981;
+    color: white;
+    font-size: small;
+}
+
+#myRange {
+    margin-top: 5px;
+}
+
+hr {
+    background-color:#273549;
+    border:0px;
+    height:2px;
+    width: 100%;
+    margin-top: 23px;
+    margin-bottom: 18px;  
+}

@@ -55,4 +55,5 @@ the ASCII code of a valid character would be picked up.
 
 I'd like to:
 
-- Equalise the probability of all classes of characters getting chosen. (Since there are more alphabets, their probability of getting picked is higher) 
+- Equalise the probability of all classes of characters getting chosen. (Since there are more alphabets, their probability of getting picked is higher)
+- Expand this into a password diary that stores all the user's encrypted passwords.
